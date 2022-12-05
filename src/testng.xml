@@ -1,0 +1,21 @@
+<suite name="TestNG Review">
+    <listeners>
+        <listener
+                class-name ="listeners.TestNGListeners">
+        </listener>
+    </listeners>
+
+    <test name="Different TestNG Features">
+
+        <parameter name = "url" value="https://login.yahoo.com/" />
+        <parameter name = "emailId" value="test@yahoo.com" />
+
+
+        <classes>
+            <class name="ParameterTest" />
+            <class name="TestNGPractice" />
+
+        </classes>
+
+    </test>
+</suite>
