@@ -9,7 +9,7 @@ public class ParameterTest {
     WebDriver driver;
 
     @Test
-    @Parameters ({"url", "emailId"})
+    @Parameters({"url", "emailId"})
     public void yahooLoginTest(String url, String emailId){
         System.setProperty("webdriver.gecko.driver",
                 "/Users/AbhiBhatt/Downloads/geckodriver");
@@ -23,4 +23,5 @@ public class ParameterTest {
 
 
     }
+
 }

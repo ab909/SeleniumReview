@@ -7,7 +7,7 @@
 
     <test name="Different TestNG Features">
 
-        <parameter name = "url" value="https://login.yahoo.com/" />
+        <parameter name = "url" value="https://www.facebook.com/" />
         <parameter name = "emailId" value="test@yahoo.com" />
 
 
